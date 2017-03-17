@@ -1,0 +1,65 @@
+
+
+.mad-admin-main {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+#mad-admin-logo { left: 20px; }
+
+.select-wrap:before {
+    right: auto;
+    left: 10px;
+}
+
+.mad-heading { padding-right: 0; }
+
+.mad-control { float: right; }
+
+.mad-description {
+    float: left;
+    margin-right: 5%;
+    margin-left: 0;
+}
+
+.mad-admin-main input[type="text"].uploader-upload-input {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.uploader-remove-preview:before {
+    left: auto;
+    right: -10px;
+}
+
+.buttonsset > .buttonset:first-child,
+.switch_set label.cb-enable {
+    border-radius: 0 3px 3px 0;
+}
+
+.buttonsset > .buttonset:last-of-type,
+.switch_set label.cb-disable {
+	border-radius: 3px 0 0 3px;
+}
+
+.admin-menu-link {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.admin-menu-link > span {
+	padding: 11px 26px 11px 0;
+}
+
+.admin-menu-link:before {
+	/*position: absolute;*/
+	right: 15px;
+	left: auto;
+	/*top: 50%;*/
+	/*margin-top: -8px;*/
+	/*color: #c5c8cd;*/
+	/*font-family: 'fontello';*/
+	/*font-size: 18px;*/
+	/*-webkit-transition: color .35s ease;*/
+	/*transition: color .35s ease;*/
+}

@@ -1,0 +1,97 @@
+/**
+ * Frontend style
+ *
+ * @author Your Inspiration Themes
+ * @package YITH WooCommerce Ajax Search
+ * @version 1.1.1
+ */
+
+/* #Styles for Autocomplete Suggestions
+================================================== */
+
+.animated-content .animated.yith_woocommerce_ajax_search {
+	-webkit-animation-fill-mode: none;
+			animation-fill-mode: none;
+}
+
+.yith-ajaxsearchform-container .autocomplete-suggestion { min-height: auto; }
+
+.yith-ajaxsearchform-container .autocomplete-suggestion .yith_wcas_result_content .title {
+	color: inherit;
+}
+
+.autocomplete-suggestions {
+	margin-top: -2px;
+	padding: 0;
+	background-color: #fff;
+	border: 2px solid #4ac4fa;
+	border-radius: 0 0 3px 3px;
+	-moz-box-sizing: border-box;
+		box-sizing: border-box;
+}
+
+.autocomplete-suggestion .yith_wcas_result_image {
+	float: left;
+	margin-right: 10px;
+}
+.autocomplete-suggestion .yith_wcas_result_content {
+	display: block;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.woocommerce .autocomplete-suggestion  span.yith_wcas_result_outofstock,
+.autocomplete-suggestion  span.yith_wcas_result_outofstock,
+.woocommerce .autocomplete-suggestion  span.yith_wcas_result_featured,
+.autocomplete-suggestion  span.yith_wcas_result_featured,
+.woocommerce .autocomplete-suggestion  span.yith_wcas_result_on_sale,
+.autocomplete-suggestion  span.yith_wcas_result_on_sale {
+	padding: 2px 3px;
+	margin-right: 4px;
+}
+
+.link-result {
+	padding: 10px;
+	text-align: center;
+}
+
+	/* search autocomplete */
+	.autocomplete-suggestion {
+		padding: 8px 8px 8px 15px;
+		background-color: #fff;
+		cursor: pointer;
+		text-align: left;
+		font-size: 12px;
+
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.autocomplete-suggestion:hover { background-color: #f8f8f8; }
+
+	.autocomplete-suggestion:after {
+		clear: both;
+		display: block;
+		visibility: hidden;
+		height: 0;
+		content: ".";
+	}
+
+		.autocomplete-suggestion .thumbnail {
+			float: left;
+			margin-right: 10px;
+			margin-bottom: 5px;
+		}
+
+		.autocomplete-suggestion .autocomplete-content {
+			overflow: hidden;
+			display: block;
+			margin-top: 5px;
+			margin-bottom: 2px;
+			line-height: 1.2em;
+		}
+
+		.yith-s { background-repeat: no-repeat; }
+
+		#header .yith-s { background-position: 97% center; }
+		.widget .yith-s { background-position: 77% center; }

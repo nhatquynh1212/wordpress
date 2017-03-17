@@ -1,0 +1,302 @@
+/**
+ * The style of the woocommerce compare products
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a, ins { text-decoration: none; }
+
+body {
+	margin: 30px 20px 20px;
+	font: 400 14px/21px 'Roboto', 'sans-serif';
+	color: #777;
+	background-color: #f8f8f8 !important;
+	background-image: none !important;
+}
+
+table { display: table; }
+
+h2 {
+	margin-bottom: 15px;
+	color: #333;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+li { list-style: none; }
+
+a {
+	color: #333;
+	-webkit-transtition: color .7s ease, border-color .7s ease, background-color .7s ease
+	transtition: color .7s ease, border-color .7s ease, background-color .7s ease
+}
+
+a:hover {
+	color: #0186c8;
+	-webkit-transition: color .1s ease, border-color .1s ease, background-color .1s ease
+	transition: color .1s ease, border-color .1s ease, background-color .1s ease
+}
+
+table { table-layout: fixed; }
+
+table, table td {
+	padding: 0;
+	border: none;
+	border-collapse: collapse;
+	background-color: #fff;
+}
+
+table th {
+	font-weight: 600;
+	line-height: 18px;
+	background-color: #f8f8f8;
+}
+
+table th, table td {
+	border: 1px solid #eaeaea;
+	padding: 14px 19px;
+}
+
+table th:first-child,
+table td:first-child { border-left-width: 0; }
+
+table > *:last-child > tr:last-child th,
+table > *:last-child > tr:last-child td { border-bottom-width: 0; }
+
+table tr:first-child th,
+table tr:first-child td { border-top: none; }
+
+.table-wrapper { width: 100%; }
+
+.dataTables_wrapper {
+	table-layout: fixed;
+	overflow: hidden;
+	border: 1px solid #eaeaea;
+	border-radius: 3px;
+}
+
+table.compare-list th {
+	overflow: hidden;
+	width: 132px;
+	max-width: 132px;
+	min-width: 132px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.scheme_style_1 .dataTables_wrapper,
+.scheme_style_1 .dataTables_wrapper th,
+.scheme_style_1 .dataTables_wrapper td { border: none }
+
+table.compare-list td {
+	width: 230px;
+	max-width: 230px;
+	min-width: 230px;
+}
+
+table.compare-list thead,
+table.compare-list tfoot { display: none; }
+
+table.compare-list .fl-pcountdown-cnt { display: none; }
+
+table.compare-list .title a.title { display: block; }
+
+table.compare-list .rating.rating-box {
+	display: inline-block;
+	margin-top: 0;
+	width: auto !important;
+	vertical-align: middle;
+	font-size: .4em;
+}
+
+table.compare-list .rating.rating-box img { vertical-align: middle; }
+
+table.compare-list .amount {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+table.compare-list .amount { margin-left: 5px; }
+
+table.compare-list td > span.amount,
+table.compare-list ins span.amount { color: #018bc8; }
+
+.scheme_style_1 table.compare-list td > span.amount,
+.scheme_style_1 table.compare-list ins span.amount { color: #49b9c6; }
+
+table.compare-list .stock td span 				{ color: #54bd45; }
+table.compare-list .stock td span.out-of-stock  { color: #ff0000; }
+
+table.compare-list .button,
+table.compare-list .added_to_cart,
+table.compare-list .add_to_cart_button,
+table.compare-list .product_type_simple {
+	display: inline-block;
+	padding: 8px 20px 9px;
+	background-color: #4ac4fa;
+	border-color: #4ac4fa;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.scheme_style_1 table.compare-list .button,
+.scheme_style_1 table.compare-list .added_to_cart,
+.scheme_style_1 table.compare-list .add_to_cart_button,
+.scheme_style_1 table.compare-list .product_type_simple {
+	background-color: #f68121;
+	border-color: #f68121;
+	border-radius: 0;
+}
+
+table.compare-list .button:hover,
+table.compare-list .added_to_cart:hover,
+table.compare-list .add_to_cart_button:hover,
+table.compare-list .product_type_simple:hover {
+	background-color: #018bc8;
+	color: #fff;
+}
+
+.scheme_style_1 table.compare-list .button:hover,
+.scheme_style_1 table.compare-list .added_to_cart:hover,
+.scheme_style_1 table.compare-list .add_to_cart_button:hover,
+.scheme_style_1 table.compare-list .product_type_simple:hover {
+	background-color: #4e4e4e;
+	color: #fff;
+}
+
+table.compare-list .remove {
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: top;
+}
+
+	table.compare-list .remove > a {
+		display: inline-block;
+		vertical-align: top;
+		width: 38px;
+		height: 38px;
+		background-color: #777;
+		font-size: 0;
+		text-align: center;
+		color: #fff;
+		border-radius: 3px;
+	}
+
+	.scheme_style_1 table.compare-list .remove > a { border-radius: 0; }
+
+	table.compare-list .remove > a:before {
+		display: inline-block;
+		vertical-align: top;
+		font-family: "fontello";
+		font-style: normal;
+		font-size: 18px;
+		font-weight: normal;
+		text-decoration: inherit;
+		line-height: 38px;
+		content: '\ea87';
+	}
+
+	table.compare-list .remove > a:hover {
+		background-color: #333;
+		color: #fff;
+	}
+
+
+/** Fixed Header Table Style */
+/*!
+* jquery.fixedHeaderTable. The jQuery fixedHeaderTable plugin
+*
+* Copyright (c) 2011 Mark Malek
+* http://fixedheadertable.com
+*
+* Licensed under MIT
+* http://www.opensource.org/licenses/mit-license.php
+*
+* http://docs.jquery.com/Plugins/Authoring
+* jQuery authoring guidelines
+*
+* Launch  : October 2009
+* Version : 1.3
+* Released: May 9th, 2011
+*
+*
+* all CSS sizing (width,height) is done in pixels (px)
+*/
+
+/* @group Reset */
+
+.fht-table,
+.fht-table thead,
+.fht-table tfoot,
+.fht-table tbody,
+.fht-table tr,
+.fht-table th,
+.fht-table td {
+	/* position */
+	margin: 0;
+
+	/* size */
+	padding: 0;
+
+	/* text */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: top;
+}
+
+.fht-table {
+	/* appearance */
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* @end */
+
+/* @group Content */
+
+.fht-table-wrapper,
+.fht-table-wrapper .fht-thead,
+.fht-table-wrapper .fht-tfoot,
+.fht-table-wrapper .fht-fixed-column .fht-tbody,
+.fht-table-wrapper .fht-fixed-body .fht-tbody,
+.fht-table-wrapper .fht-tbody {
+	/* appearance */
+	overflow: hidden;
+
+	/* position */
+	position: relative;
+}
+
+.fht-table-wrapper .fht-fixed-body .fht-tbody,
+.fht-table-wrapper .fht-tbody {
+	/* appearance */
+	overflow: auto;
+}
+
+.fht-table-wrapper .fht-table .fht-cell {
+	/* appearance */
+	overflow: hidden;
+
+	/* size */
+	height: 1px;
+}
+
+.fht-table-wrapper .fht-fixed-column,
+.fht-table-wrapper .fht-fixed-body {
+	/* position */
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.fht-table-wrapper .fht-fixed-column {
+	/* position */
+	z-index: 1;
+}
+
+/* @end */

@@ -1,0 +1,29 @@
+
+
+/*	Header
+/* --------------------------------------------- */
+
+#open_shopping_cart.active *,
+#open_shopping_cart.active::after,
+#open_shopping_cart.active::before { color:#fff; }
+
+@media only screen and (max-width: 992px) {
+
+	.search_category,
+	.search_category .chosen-container-single .chosen-single
+	{
+		border-radius: 3px 0 0 3px;
+	}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	#header .nav_item form.search_form .search_category,
+	#header .main_header_row form.search_form .search_category
+	{
+		border-left-color: #4ac4fa;
+	}
+
+}
